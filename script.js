@@ -4,6 +4,11 @@ var color2 = document.querySelector('.color2');
 var body = document.getElementById('gradient');
 var button = document.getElementById('random');
 
+var _ = require('lodash');
+
+var array = [1,2,3,4,5,6];
+console.log('using lodash:', _.without(array,3));
+
 function setGradient() {
 	body.style.background = 
 	'linear-gradient(to right,' 
